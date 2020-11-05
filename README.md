@@ -1,8 +1,10 @@
-# Evolutility-UI-jQuery &middot; [![GitHub license](https://img.shields.io/github/license/evoluteur/evolutility-ui-jquery)](https://github.com/evoluteur/evolutility-ui-jquery/blob/master/LICENSE.md) [![npm version](https://img.shields.io/npm/v/evolutility-ui-jquery)](https://www.npmjs.com/package/evolutility-ui-jquery) 
+# Evolutility-UI-jQuery &middot; [![GitHub license](https://img.shields.io/github/license/evoluteur/evolutility-ui-jquery)](https://github.com/evoluteur/evolutility-ui-jquery/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/evolutility-ui-jquery)](https://www.npmjs.com/package/evolutility-ui-jquery) 
 
 
 Evolutility-UI-jQuery provides a set of generic Backbone Views to browse, edit, filter, export and chart Backbone models and collections of different structures.
 With it you can make web applications by configuring views with metadata instead of hand-coding templates, Javascript and CSS.
+
+![Edit](https://raw.githubusercontent.com/evoluteur/evolutility-ui-jquery/master/doc/screenshots/one-edit.gif)
 
 By default Evolutility-UI-jQuery uses your browser local storage to store data (easier for demos because there is no server or database to setup).
 
@@ -42,7 +44,7 @@ By default, Evolutility-UI-jQuery is configured use localStorage for storing dat
 ```bash
 # To rebuild the project
 cd evolutility-ui-jquery
-bower install
+npm install
 grunt
 ```
 
@@ -369,10 +371,10 @@ The React alternative:
 
 ## Documentation
 
-The (beginning of a) [documentation](http://evoluteur.github.io/evolutility-ui-jquery/doc/index.html) is in progress: [ui-models](http://evoluteur.github.io/evolutility-ui-jquery/doc/ui-model.html) and [views](http://evoluteur.github.io/evolutility-ui-jquery/doc/views.html).
+[Documentation](http://evoluteur.github.io/evolutility-ui-jquery/doc/index.html): [ui-models](http://evoluteur.github.io/evolutility-ui-jquery/doc/ui-model.html) and [views](http://evoluteur.github.io/evolutility-ui-jquery/doc/views.html).
 
 ## License
 
 Copyright (c) 2020 [Olivier Giulieri](https://evoluteur.github.io/).
 
-Evolutility-UI-jQuery is released under the [MIT license](http://github.com/evoluteur/evolutility-ui-jquery/blob/master/LICENSE.md).
+Evolutility-UI-jQuery is released under the [MIT license](http://github.com/evoluteur/evolutility-ui-jquery/blob/master/LICENSE).
